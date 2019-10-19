@@ -112,7 +112,6 @@ a2:hover{ color: white;
 	#poom9{bottom: 13%; font-weight: 5px; font-size: 1em;display:none; left: 23%;font-family: "DungGeunMo";}
 	#poom10{bottom: 13%; font-weight: 5px; font-size: 1em;display:none; left: 23%;font-family: "DungGeunMo";}
 
-
 	#yaa2{bottom: 11%; font-weight: 5px; font-size: 1em;display:none; left: 43%;font-family: "DungGeunMo";cursor: pointer;}
 	#yaa2:hover{color: white; }
 	#noo2{bottom: 11%; font-weight: 5px; font-size: 1em;display:none; left: 55%;font-family: "DungGeunMo";cursor: pointer;}
@@ -697,11 +696,14 @@ a4 { font-weight:bold;
 	 <h4 id="flashlight">딱히 손전등을 사용할 곳이 없다.</h4>
 	 <h6 id="poom">화장실 자동 센서 음악이 들려온다.</h6>
 	 <h6 id="poom2">누군가 화장실에 들어갔나보다.</h6>
-	 <h6 id="poom3">좋아...잠깐만 살펴 보는거다...!</h6>
-	 <h6 id="poom4">...그래 4학년 교실인데 뭐가 있겠어?</h6>	 
+	 <h6 id="poom3">화장실 방문이 처음이십니까?</h6>
+	 <h6 id="poom4">...그래 4학년 교실인데 뭐가 있겠어?</h6>	
+	 <a href="https://seoojing.github.io/nun/"> 
 	 	 	<h10 id="yaa2">예</h10>
+	 	 	</a>
+	 	 	 <a href="https://seoojing.github.io/fa/"> 
 		<h10 id="noo2">아니오</h10>
-
+</a>
 <div id="musi">
    <a5>
 	<MARQUEE width="300" height="50" scrollamount="3">The Age Of Wood - Savfk</MARQUEE>
@@ -1365,7 +1367,14 @@ window.onmousemove = function(){
 			backk.style.opacity = "1";
 			}
 
-
+	lefi.onclick = function(){
+		but.play();
+			toggle = "on";
+			bx.style.display = "inline";
+			poom3.style.display = "inline";
+			yaa2.style.display = "inline";
+			noo2.style.display = "inline";
+			}
 
 </script>
 </body>
