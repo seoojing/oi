@@ -653,9 +653,11 @@ a4 { font-weight:bold;
 		<img src="there.png">
 	</div>
 </a>
+<a href="https://seoojing.github.io/yaya/">
 	<div id="turn">
 		<img src="turn.png">
 	</div>
+</a>
 	<div id="lefi">
 		<img src="here.png">
 	</div>
@@ -678,6 +680,9 @@ a4 { font-weight:bold;
 
 <!-- Image 4 -->
 
+	<audio id="beep">
+		<source src="beep.mp3" type="audio/mpeg">
+	</audio>
 
 	<div id="bx">
 		<img src="boox.png">
@@ -980,6 +985,8 @@ window.onmousemove = function(){
 			self.setTimeout("lookDiv4()",800);
 		on = true;
 			}
+				soun11.onclick = function(){
+		beep.play();}	
 	soun6.onclick = function(){
 		click.play();
 		tada7.style.display = "none";
